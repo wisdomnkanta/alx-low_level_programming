@@ -1,25 +1,14 @@
 #include <stdio.h>
 
-
 /**
+ * main - Entry point
  *
- *  * main - Entry point
- *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
-
+ * Return:Always 0 (success)
+ */
 int main(void)
-
 {
-
 	char str1[] = "with proper grammar, but the outcome is a piece of art,\n";
 
-
-			printf("%s", str1);
-
-				return (0);
-
+	printf("%s", str1);
+	return (0);
 }
