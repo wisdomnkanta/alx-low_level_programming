@@ -4,7 +4,7 @@
  * jack_bauer - function print every hour and minutes
  * Return: 0 successfully
  */
-void jack-bauer(void)
+void jack_bauer(void)
 {
 	int hour, minute;
 
