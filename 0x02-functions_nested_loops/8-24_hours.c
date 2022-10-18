@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer - fucntion print every hour and minutes
+ * jack_bauer - function print every hour and minutes
  * Return: 0 successfully
  */
 void jack-bauer(void)
