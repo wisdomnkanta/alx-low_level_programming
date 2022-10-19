@@ -3,10 +3,10 @@
 /**
  * add - adds two integers
  * @i: first integer
- * @j; second integer
- * @Return: zero
+ * @j: second integer
+ * Return: zero
  */
 int add(int i, int j)
 {
-	return(i+j);
+	return (i + j);
 }
