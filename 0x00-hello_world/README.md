@@ -1,51 +1,39 @@
-julien@ubuntu:~/c/0x00$ cat main.c 
+#!/bin/bash
 
-#include <stdio.h>
+# Simply a wrapper script to keep you from having to use betty-style
 
+# and betty-doc separately on every item.
 
+# Originally by Tim Britton (@wintermanc3r), multiargument added by
 
-/**
-
- * main - Entry point
-
- *
-
- * Return: Always 0 (Success)
-
- */
-
-int main(void)
-
-{
-
-    return (0);
-
-}
-
-julien@ubuntu:~/c/0x00$ export CFILE=main.c
-
-julien@ubuntu:~/c/0x00$ ./0-preprocessor 
-
-julien@ubuntu:~/c/0x00$ tail c
-
-# 942 "/usr/include/stdio.h" 3 4
+# Larry Madeo (@hillmonkey)
 
 
 
-# 2 "main.c" 2
+BIN_PATH="/usr/local/bin"
+
+BETTY_STYLE="betty-style"
+
+BETTY_DOC="betty-doc"
 
 
 
+if [ "$#" = "0" ]; then
+
+    echo "No arguments passed."
+
+    exit 1
+
+fi
 
 
-# 3 "main.c"
 
-int main(void)
+for argument in "$@" ; do
 
-{
+    echo -e "\n========== $argument =========="
 
- return (0);
+    ${BIN_PATH}/${BETTY_STYLE} "$argument"
 
-}
+    ${BIN_PATH}/${BETTY_DOC} "$argument"
 
-julien@ubuntu:~/c/0x00$ 
+done 
