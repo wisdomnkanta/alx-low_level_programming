@@ -1,1 +1,1 @@
-This course is strictly for debugging using C lanaguage
+This course is strictly for debugging using C lanaguag
