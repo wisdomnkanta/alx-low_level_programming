@@ -1,17 +1,19 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * print_alphabet - print a - z in alphabetical order
- * followed by a next line
+ * _isdigit - check for a digit.
+ * @c: input
+ * Return: 1 if c is a git
+ * 0 if otherwise
  */
-void print_alphabet(void)
+int _isdigit(int c)
 {
-	char ch;
-
-	for (ch = 'a'; ch <= 'z'; ch++)
+	if (c >= '0' && c <= '9')
 	{
-		_putchar(ch);
+		return (1);
 	}
-	_putchar('\n');
+	else
+	{
+		return (0);
+	}
 }

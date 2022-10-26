@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * main - expected to print _putchar
- *
- * Return: 0 successfully
+ * _isupper - checks for uppercase character
+ * @c: input
+ * Return: 1 if c is upper
+ * 0 if otherwise
  */
-int main(void)
+int _isupper(int c)
 {
-	char text[8] = "_putchar";
-	int i;
-
-	for (i = 0; i < 8; i++)
+	if (c >= 'A' && c <= 'Z')
 	{
-		_putchar(text[1]);
+		return (1);
 	}
-	_putchar('\n');
-	return (0);
+	else
+	{
+		return (0);
+	}
 }
