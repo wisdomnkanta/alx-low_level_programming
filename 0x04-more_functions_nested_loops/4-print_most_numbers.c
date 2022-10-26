@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print-most_numbers - prints number from 0 -9
+ * print_most_numbers - prints number from 0 -9
  * except 2 and 9
  * Return: 0
  */
