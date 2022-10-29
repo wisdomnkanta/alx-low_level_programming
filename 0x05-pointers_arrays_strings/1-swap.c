@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * swap_int - is a fucntion that swaps the value
+ * swap_int - is a function that swaps the value
  * of two integers.
  * @a: first integer
- * @: second integer
+ * @b: second integer
  * Return: no return*
  */
 
